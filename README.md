@@ -15,11 +15,15 @@ The all TXT file is the feature out of all models, and finally all results can b
  https://drive.google.com/file/d/1HZ5pPetnkpIzj7cXUfFHGwOoVu7ed7E5/view?usp=sharing
 Note: DIFF and RGB are the same network,  the difference is  inter-frame information and single frame information.
 
-
+prepare dataset:
+The ucf101 videos needs to be put in '/data/xuwd/video/'. 
 trainRGB:
 python trainrgb.py
+
 traindiff:
 python traindiff.py
+
 traintsm:
 python traintsm.py
 
+each python file has a submit fuction, you can run it to submit.
