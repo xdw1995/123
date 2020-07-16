@@ -17,6 +17,7 @@ Note: DIFF and RGB are the same network,  the difference is  inter-frame informa
 
 prepare dataset:
 The ucf101 videos needs to be put in '/data/xuwd/video/'. 
+
 trainRGB:
 python trainrgb.py
 
@@ -28,3 +29,4 @@ python traintsm.py
 
 each python file has a submit fuction, you can run it to submit.
 Or you can run python test mult_model.py to submit.
+An example can be seen in test_multmodel_new.py.
