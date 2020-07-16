@@ -27,3 +27,4 @@ traintsm:
 python traintsm.py
 
 each python file has a submit fuction, you can run it to submit.
+Or you can run python test mult_model.py to submit.
