@@ -17,6 +17,7 @@ Note: DIFF and RGB are the same network,  the difference is  inter-frame informa
 
 prepare dataset:
 The ucf101 videos needs to be put in '/data/xuwd/video/'. 
+The label need a txt file, where the video name corresponds to the category ranging from 1 to 101.
 
 trainRGB:
 python trainrgb.py
